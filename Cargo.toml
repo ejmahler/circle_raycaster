@@ -1,0 +1,13 @@
+cargo-features = ["edition"]
+
+[package]
+name = "circle_thing"
+version = "0.1.0"
+authors = ["emahler <join.together@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+image = "*"
+cgmath = { version="*", features=["swizzle"] }
+rand = "*"
+palette = "*"
